@@ -11,7 +11,7 @@ services:
    - /var/www/html/themes
    - /var/www/html/sites
   restart: always
-
+#Prueba
  drupaldb:
   image: mysql:latest
   command: --default-authentication-plugin=mysql_native_password
